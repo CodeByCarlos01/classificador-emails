@@ -6,9 +6,10 @@ Este projeto consiste em um classificador de e-mails que organiza mensagens em c
 - Implementa um classificador baseado em gradiente descendente estocástico (SGD) para atribuir categorias.
 - Realiza o pré-processamento dos e-mails, incluindo a remoção de stopwords, stemming e TF-IDF.
 - Envia e-mails para as pastas correspondentes.
+- Permite que o usuário faça ajustes no classificador para uma classificação mais personalizada.
 ## Pré-requisitos
 - Python 3.x
-- Bibliotecas Python: scikit-learn, imap-tools, pandas, numpy, nltk, unidecode
+- Bibliotecas Python: `scikit-learn`, `imap-tools`, `pandas`, `numpy`, `nltk`, `unidecode`
 ### 1. scikit-learn:
 ```sh
 pip install scikit-learn
@@ -45,7 +46,7 @@ Execute um comando por vez.
 pip install unidecode
 ```
 ## Configuração
-Antes de executar o projeto, é necessário configurar as seguintes variáveis no arquivo app.py:
+Antes de executar o projeto, é necessário configurar as seguintes variáveis no arquivo __app.py__:
 
 - `usuario`: Insira seu endereço de e-mail.
 - `senha`: Insira a senha de aplicativo para o seu e-mail.
@@ -53,13 +54,15 @@ Antes de executar o projeto, é necessário configurar as seguintes variáveis n
 - `server_smtp`: Insira o servidor SMTP do seu provedor de e-mail (por padrão, é configurado para o Gmail).
 
 ### Explicando como criar senha de App
-https://www.youtube.com/watch?v=ZqFaFEIqTaE
+[![Explicando como criar senha de App](https://i.ytimg.com/vi/ZqFaFEIqTaE/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAArQFigIMCAAQARh_ICIoGzAP&rs=AOn4CLB0wDv_2N1LFLbGPAT83JW33u6zUw)](https://www.youtube.com/watch?v=ZqFaFEIqTaE)
 ## Uso
-1. Execute o arquivo app.py para iniciar o classificador de e-mails.
+1. Execute o arquivo __app.py__ para iniciar o classificador de e-mails.
 2. O classificador buscará novos e-mails na `Caixa de Entrada` e os classificará automaticamente.
 3. Os e-mails serão movidos para as pastas correspondentes com base na classificação.
 
 Certifique-se de manter o projeto em execução para que ele continue a classificar e-mails em tempo real.
+## Ajuste
+A aplicação permite o usuário fazer ajustes na classificação dos e-mails, simplesmente movendo-os entre pastas. Essa capacidade é muito valiosa e oferece aos usuários o controle e a personalização necessários para garantir que os e-mails sejam categorizados de acordo com suas preferências individuais. Proporcionando mais flexibilidade e aprimoramento contínuo.
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
 
