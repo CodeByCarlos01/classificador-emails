@@ -31,16 +31,19 @@ pip install numpy
 pip install nltk
 ```
 Depois de instalar o nltk, é necessário baixar os dados adicionais usando os seguintes comandos:
+
+**Acesse o python**
 ```sh 
 python
 ```
+**Importe o nltk**
 ```sh
 import nltk
 ```
+**Faça o download adicional do nltk**
 ```sh
 nltk.download()
 ```
-Execute um comando por vez.
 ### 6. unidecode:
 ```sh
 pip install unidecode
