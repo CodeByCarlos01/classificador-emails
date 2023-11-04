@@ -70,3 +70,6 @@ A aplicação permite o usuário fazer ajustes na classificação dos e-mails, s
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
 
 *Muito obrigado por usar nosso aplicativo e boa classificação de e-mails!* 📧✨
+
+##  **Meu Linked** ![logo](https://github.com/CodeByCarlos01/language-DSL/assets/107969946/aefba453-727d-4b05-ad1c-7e932947ba90) :
+https://www.linkedin.com/in/carlos-eduh/ 👍
